@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block main %}
+    <ul id="terminal">
+        <li class="command_line">
+            <span class="line_counter line_count"></span>
+            <div class="line__content">
+                <span class="anim delay-0">ls -lt /home/Projects</span>
+            </div>
+        </li>
+        {% for project in projects %}
+            <li class="command_line">
+                <span class="line_counter line_count"></span>
+                <img class="project_img"
+                     src="static/{{ project.img }}"
+                     alt="{{ project.name }} image" />
+                <div class="line__content">
+                    <span class="anim delay-1"><b class="green">{{ project.name }}</b></span>
+                    <span class="anim delay-2">------------------------------------------</span>
+                    <span class="anim delay-3"><b class="yellow">Date</b>: {{ project.start_date }} - {{ project.end_date }}</span>
+                    <span class="anim delay-4"><b class="yellow">Tags</b>: {{ project.tags }}</span>
+                    <span class="anim delay-4"><b class="yellow">Description</b>: {{ project.description }}</span>
+                    <span class="anim delay-5"><b class="yellow">Github Repository</b>:
+                        <a href="{{ project.github_url }}">Link</a>
+                        {% include "icons/link.html" %}
+                    </span>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

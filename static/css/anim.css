@@ -1,0 +1,88 @@
+.anim {
+  animation:
+    typewriter var(--speed) steps(44, end) 0s 1 normal both,
+    blinkTextCursor 250ms steps(44, end) 0s 2 normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: var(--text);
+    border-right-width: 0.5rem;
+  }
+  to {
+    border-right-color: transparent;
+    border-right-width: 0.5rem;
+  }
+}
+
+.delay-0 {
+  animation-delay: calc(var(--speed) * 0) !important;
+}
+
+.delay-1 {
+  animation-delay: calc(var(--speed) * 1) !important;
+}
+
+.delay-2 {
+  animation-delay: calc(var(--speed) * 2) !important;
+}
+
+.delay-3 {
+  animation-delay: calc(var(--speed) * 3) !important;
+}
+
+.delay-4 {
+  animation-delay: calc(var(--speed) * 4) !important;
+}
+
+.delay-5 {
+  animation-delay: calc(var(--speed) * 5) !important;
+}
+
+.delay-6 {
+  animation-delay: calc(var(--speed) * 6) !important;
+}
+
+.delay-7 {
+  animation-delay: calc(var(--speed) * 7) !important;
+}
+
+.delay-8 {
+  animation-delay: calc(var(--speed) * 8) !important;
+}
+
+.delay-9 {
+  animation-delay: calc(var(--speed) * 9) !important;
+}
+
+.delay-10 {
+  animation-delay: calc(var(--speed) * 10) !important;
+}
+
+.delay-11 {
+  animation-delay: calc(var(--speed) * 11) !important;
+}
+
+.delay-12 {
+  animation-delay: calc(var(--speed) * 12) !important;
+}
+
+.delay-13 {
+  animation-delay: calc(var(--speed) * 13) !important;
+}
+
+.delay-14 {
+  animation-delay: calc(var(--speed) * 14) !important;
+}
+
+.delay-15 {
+  animation-delay: calc(var(--speed) * 15) !important;
+}

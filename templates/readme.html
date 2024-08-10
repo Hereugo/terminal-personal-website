@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block main %}
+    <ul id="terminal">
+        <div hx-get="/command?command=whoami"
+             hx-trigger="load"
+             hx-target="#terminal > *:last-child"
+             hx-swap="beforebegin"></div>
+        <div hx-get="/command?command=about"
+             hx-trigger="load delay:3.5s"
+             hx-target="#terminal > *:last-child"
+             hx-swap="beforebegin"></div>
+        <div hx-get="/command?command=stats"
+             hx-trigger="load delay:4.5s"
+             hx-target="#terminal > *:last-child"
+             hx-swap="beforebegin"></div>
+        <li class="command_line">
+            <span class="line_counter line_count"></span>
+            <div class="line__content">
+                <input type="text"
+                       class="command_prompt"
+                       name="command"
+                       hx-get="/command"
+                       hx-trigger="keyup[key=='Enter']"
+                       hx-on::after-request="this.value = ''; this.scrollIntoView();"
+                       hx-target="#terminal > *:last-child"
+                       hx-swap="beforebegin" />
+            </div>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,39 @@
+.red {
+  color: var(--red) !important;
+}
+
+.green {
+  color: var(--green) !important;
+}
+
+.yellow {
+  color: var(--yellow) !important;
+}
+
+.blue {
+  color: var(--blue) !important;
+}
+
+.pink {
+  color: var(--pink) !important;
+}
+
+.cyan {
+  color: var(--cyan) !important;
+}
+
+.white {
+  color: var(--white) !important;
+}
+
+.gray {
+  color: var(--gray) !important;
+}
+
+.text {
+  color: var(--text) !important;
+}
+
+.comment {
+  color: var(--comment) !important;
+}

@@ -1,0 +1,190 @@
+[
+  {
+    "img": "projects/consimo.png",
+    "name": "Consimo",
+    "start_date": "Apr 21, 2021",
+    "end_date": "Jul 02, 2021",
+    "tags": ["telegram bot", "nodejs", "javascript"],
+    "description": "Consimo - Bot builder for Telegram. Create a simple bot with no programming knowledge.",
+    "github_url": "https://github.com/Hereugo/Consimo"
+  },
+  {
+    "img": "projects/felony-felines.png",
+    "name": "🐱 Felony Felines",
+    "start_date": "Jan 01, 2022",
+    "end_date": "Mar 01, 2022",
+    "tags": ["godot", "game", "local multiplayer"],
+    "description": "A local multiplayer survival shooter game in which 2 kittens with guns put up a fight against the entire Green County Sheriff Department",
+    "github_url": "https://github.com/KoshakiDev/FelonyFelines"
+  },
+  {
+    "img": "projects/foodgram.png",
+    "name": "🍟 Foodgram",
+    "start_date": "Mar 06, 2023",
+    "end_date": "Apr 01, 2023",
+    "tags": [
+      "Python",
+      "Django",
+      "React",
+      "Backend",
+      "Docker",
+      "PostgreSQL",
+      "Ngnix"
+    ],
+    "description": "\"Foodgram\" is a website where you can publish your own recipes.",
+    "github_url": "https://github.com/Hereugo/foodgram-project-react"
+  },
+  {
+    "img": "projects/google-meet-attendance-list.png",
+    "name": "🙇‍♂️ Google Meet Attendance List",
+    "start_date": "Jan 9, 2021",
+    "end_date": "May 27, 2022",
+    "tags": ["javascript", "chrome extension"],
+    "description": "A Google Chrome extension that allows you to view the attendance list of a Google Meet meeting.",
+    "github_url": "https://github.com/Hereugo/Google-Meet-Attendance"
+  },
+  {
+    "img": "projects/google-meet-attendance-list.png",
+    "name": "🙇‍♂️ Google Meet Attendance List Revamed",
+    "start_date": "Jan 17, 2024",
+    "end_date": "Feb 05, 2024",
+    "tags": ["javascript", "chrome extension"],
+    "description": "A Google Chrome extension that allows you to view the attendance list of a Google Meet meeting.",
+    "github_url": "https://github.com/Hereugo/google-meet-attendance-list-revamped"
+  },
+  {
+    "img": "projects/google-meet-games.png",
+    "name": "🕹 Google Meet Games",
+    "start_date": "Jun 18, 2022",
+    "end_date": "Jul 26, 2022",
+    "tags": ["javascript", "chrome extension"],
+    "description": "Play games in Google meet while waiting for the meeting to start.",
+    "github_url": "https://github.com/Hereugo/Google-Meet-Games"
+  },
+  {
+    "img": "projects/limited-youtube.png",
+    "name": "🎥 Limited YouTube",
+    "start_date": "Nov 01, 2023",
+    "end_date": "Nov 12, 2023",
+    "tags": ["javascript", "chrome extension"],
+    "description": "This is a chrome extension that allows you to hide videos with specific words.",
+    "github_url": ""
+  },
+  {
+    "img": "projects/marketplace.png",
+    "name": "🧸 Marketplace",
+    "start_date": "Jul 03, 2023",
+    "end_date": "Aug 03, 2023",
+    "tags": ["python", "django", "nginx", "nextjs"],
+    "description": "Import products, view analytics, generate stickers and export offers as excelsheet.",
+    "github_url": ""
+  },
+  {
+    "img": "projects/potato-cashback.png",
+    "name": "🥔 Potato Cashback",
+    "start_date": "Jul 01, 2021",
+    "end_date": "Aug 30, 2021",
+    "tags": ["nodejs", "python", "javascript", "telegram", "bot"],
+    "description": "Accessible loyalty program for stores using just a phone app.",
+    "github_url": "https://github.com/potato-cashback/potato-cashback"
+  },
+  {
+    "img": "projects/pricelist-manager.png",
+    "name": "🛍 Pricelist Manager",
+    "start_date": "Dec 10, 2023",
+    "end_date": "Feb 25, 2024",
+    "tags": ["python", "django", "nginx", "nextjs"],
+    "description": "Extension to Marketplace app. Import products, create offers, and publish to clients for an order.",
+    "github_url": "https://github.com/potato-cashback/potato-cashback"
+  },
+  {
+    "img": "projects/rusty-pixel-fighting.png",
+    "name": "Rusty Pixel Fighting",
+    "start_date": "Apr 13, 2024",
+    "end_date": "Apr 13, 2024",
+    "tags": ["rust"],
+    "description": "Simple visualisation of pixels fighting written in rust.",
+    "github_url": ""
+  },
+  {
+    "img": "projects/rusty-snake-game.png",
+    "name": "🐍 Rusty Snake",
+    "start_date": "Feb 19, 2024",
+    "end_date": "Feb 22, 2024",
+    "tags": ["rust"],
+    "description": "Simple terminal snake game written in Rust.",
+    "github_url": "https://github.com/Hereugo/rusty_snake_game"
+  },
+  {
+    "img": "projects/selrad-planner.png",
+    "name": "📆 Selrad Planner",
+    "start_date": "Mar 03, 2024",
+    "end_date": "Apr 22, 2024",
+    "tags": ["python", "django", "nginx", "nextjs"],
+    "description": "A website for employees at a local company to manage work plans and optimize routes efficiently on a map.",
+    "github_url": "https://github.com/Hereugo/rusty_snake_game"
+  },
+  {
+    "img": "projects/soft-skill-ai.png",
+    "name": "🗣 Soft Skill AI",
+    "start_date": "May 03, 2021",
+    "end_date": "May 06, 2021",
+    "tags": ["telegram", "bot", "python", "openai"],
+    "description": "A website for employees at a local company to manage work plans and optimize routes efficiently on a map.",
+    "github_url": "https://github.com/nomomon/Soft-Skill-AI"
+  },
+  {
+    "img": "projects/terminal-tetris.png",
+    "name": "👾 Terminal Tetris",
+    "start_date": "Jun 28, 2024",
+    "end_date": "Jun 30, 2024",
+    "tags": ["python", "curses"],
+    "description": "Simple tetris implementation in terminal using standard Python libraries.",
+    "github_url": "https://github.com/Hereugo/terminal-tetris"
+  },
+  {
+    "img": "projects/tic-tac-toe-3-players.png",
+    "name": "🔳 Tic Tac Toe 3 Players",
+    "start_date": "Jul 27, 2020",
+    "end_date": "Jul 28, 2020",
+    "tags": ["javascript", "html", "css"],
+    "description": "This is a 3 player tic tac toe game that I made using vanilla javascript. It has a simple UI and is very easy to use.",
+    "github_url": "https://github.com/Hereugo/Tic-tac-toe-3-players"
+  },
+  {
+    "img": "projects/typeracer-premium-ui.png",
+    "name": "🏎 Typeracer Premium UI",
+    "start_date": "Sep 9, 2021",
+    "end_date": "Mar 7, 2022",
+    "tags": ["javascript", "chrome extension"],
+    "description": "This is a chrome extensions that allows you to modify your profile picture on typeracer like in premium accounts.",
+    "github_url": "https://github.com/Hereugo/typeracer-premium-UI"
+  },
+  {
+    "img": "projects/vk-cup-2022.png",
+    "name": "👨‍💻 VK Cup 2022",
+    "start_date": "Dec 03, 2022",
+    "end_date": "Feb 04 2023",
+    "tags": ["javascript", "react", "nodejs", "css", "html"],
+    "description": "The VK Cup Championship is an open computer programming competition that is held by VK, Codeforces and Saratov State University.",
+    "github_url": ""
+  },
+  {
+    "img": "projects/yandex-practicum.png",
+    "name": "🚀 Yandex Practicum",
+    "start_date": "Jun 02, 2022",
+    "end_date": "Apr 07 2023",
+    "tags": [
+      "python",
+      "django",
+      "sqlite",
+      "docker",
+      "nginx",
+      "gunicorn",
+      "git",
+      "api"
+    ],
+    "description": "Collection of final projects from python backend development bootcamp from Yandex Practicum.",
+    "github_url": ""
+  }
+]
